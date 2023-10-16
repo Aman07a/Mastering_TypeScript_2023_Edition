@@ -33,3 +33,13 @@ thing = 1;
 thing = false;
 thing();
 thing.toUpperCase();
+
+// Delayed Initialization & Implicit Any
+const movies = ['Arraival', 'The Thing', 'Aliens', 'Amadeus'];
+let foundMovie: string;
+
+for (let movie of movies) {
+  if (movie === 'Amadeus') {
+    foundMovie = 'Amadeus';
+  }
+}
