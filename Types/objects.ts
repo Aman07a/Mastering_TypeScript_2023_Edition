@@ -14,23 +14,23 @@
 // const singer = { first: 'Mick', last: 'Jagger', age: 473, isAlive: true };
 // printName(singer);
 
-type Point = {
-  x: number;
-  y: number;
-};
+// type Point = {
+//   x: number;
+//   y: number;
+// };
 
-let coordinate: Point = { x: 34, y: 2 };
+// let coordinate: Point = { x: 34, y: 2 };
 
-function randomCoordinate(): Point {
-  return { x: Math.random(), y: Math.random() };
-}
+// function randomCoordinate(): Point {
+//   return { x: Math.random(), y: Math.random() };
+// }
 
-function doublePoint(point: Point): Point {
-  return {
-    x: point.x * 2,
-    y: point.y * 2,
-  };
-}
+// function doublePoint(point: Point): Point {
+//   return {
+//     x: point.x * 2,
+//     y: point.y * 2,
+//   };
+// }
 
 type MyNum = number;
 let age: MyNum = 24234;
@@ -63,3 +63,11 @@ const mySong: Song = {
 const earnings = calculatePayout(mySong);
 console.log(earnings);
 printSong(mySong);
+
+type Point = {
+  x: number;
+  y: number;
+  z?: number;
+};
+
+const myPoint: Point = { x: 1, y: 3 };
