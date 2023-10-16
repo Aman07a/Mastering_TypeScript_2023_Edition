@@ -1,4 +1,4 @@
-# Mastering_TypeScript_2023_Edition
+# Mastering TypeScript 2023 Edition
 
 ![Mastering_TypeScript_2023_Edition](https://github.com/Aman07a/Mastering_TypeScript_2023_Edition/assets/60389872/bb1ee894-6311-4474-aa28-341ea2f1fde5)
 
