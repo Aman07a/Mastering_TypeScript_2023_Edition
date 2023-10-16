@@ -25,3 +25,11 @@ tvShow = 'The Other Two';
 let isFunny = false;
 isFunny = true;
 // isFunny = 'asd';
+
+// The Any Type
+let thing: any = 'hello';
+thing = 1;
+thing = 1;
+thing = false;
+thing();
+thing.toUpperCase();
