@@ -34,3 +34,9 @@ function printTwice(msg: string): void {
   console.log(msg);
   console.log(msg);
 }
+
+function gameLoop(): never {
+  while (true) {
+    console.log('GAME LOOP RUNNING');
+  }
+}
