@@ -1,7 +1,7 @@
 // Function Parameter Annotations
-function square(num: number): number {
-  return num * num;
-}
+// function square(num: number): number {
+//   return num * num;
+// }
 
 // function greet(person: string = 'stranger'): string {
 //   return `Hi there, ${person}!`;
@@ -16,3 +16,18 @@ doSomething('ChickenFace', 78, true);
 function greet(person: string = 'stranger') {
   return `Hi there, ${person}`;
 }
+
+function square(num: number): number {
+  return num * num;
+}
+
+const add = (x: number, y: number): number => {
+  return x + y;
+};
+
+// function rando(num: number) {
+//   if (Math.random() < 0.5) {
+//     return num.toString();
+//   }
+//   return num;
+// }
