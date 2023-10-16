@@ -16,3 +16,9 @@ type Point = {
 const coords: Point[] = [];
 coords.push({ x: 23, y: 8 });
 // coords.push({ x: 23, y: '8' });
+
+const board: string[][] = [
+  ['X', 'O', 'X'],
+  ['X', 'O', 'X'],
+  ['X', 'O', 'X'],
+];
