@@ -106,3 +106,13 @@ const pierre: Engineer = {
   level: 'senior',
   languages: ['JS', 'Python'],
 };
+
+type Color = 'red' | 'blue';
+
+interface Chicken {
+  breed: string;
+}
+
+interface Chicken {
+  numEggs: number;
+}
