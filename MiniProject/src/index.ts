@@ -1,9 +1,7 @@
-// const btn = document.getElementById('btn')!;
+const btn = document.getElementById('btn')!;
+const input = document.getElementById('todoinput')! as HTMLInputElement;
 
-// btn.addEventListener('click', function () {
-//   alert('CLICKED!!!');
-// });
-
-let mystery: unknown = 'Hello World!!!';
-
-const numChars = (mystery as string).length;
+btn.addEventListener('click', function () {
+  alert(input.value);
+  input.value = '';
+});
