@@ -28,3 +28,10 @@ function calculateTax(price: number | string, tax: number): number {
 
 console.log(calculateTax(45, 0.07));
 console.log(calculateTax('$45', 0.07));
+
+// const nums: number[] = [1, 2, 3, 4];
+// const stuff: any[] = [1, 2, 3, 4, true, 'asdas', {}];
+
+const coords: (Point | Loc)[] = [];
+coords.push({ lat: 321.213, long: 23.334 });
+coords.push({ x: 213, y: 43 });
