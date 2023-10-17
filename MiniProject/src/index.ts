@@ -1,2 +1,5 @@
-const btn = document.getElementById('btn');
-console.log(btn);
+const btn = document.getElementById('btn')!;
+
+btn.addEventListener('click', function () {
+  alert('CLICKED!!!');
+});
