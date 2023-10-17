@@ -7,3 +7,4 @@ Finished Chapters:
 - Chapter 5: Object Types
 - Chapter 6: Array Types
 - Chapter 7: Union Types
+- Chapter 8: Tuples and Enums
