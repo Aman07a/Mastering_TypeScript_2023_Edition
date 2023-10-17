@@ -35,3 +35,18 @@ console.log(calculateTax('$45', 0.07));
 const coords: (Point | Loc)[] = [];
 coords.push({ lat: 321.213, long: 23.334 });
 coords.push({ x: 213, y: 43 });
+
+let zero: 0 = 0;
+const mood: 'Happy' | 'Sad' = 'Happy';
+// mood = 'Sad';
+
+type DayOfWeek =
+  | 'Monday'
+  | 'Tuesday'
+  | 'Wednesday'
+  | 'Thursday'
+  | 'Friday'
+  | 'Saturday'
+  | 'Sunday';
+
+// let today: DayOfWeek = 'weds';
