@@ -6,3 +6,4 @@ Finished Chapters:
 - Chapter 4: Functions
 - Chapter 5: Object Types
 - Chapter 6: Array Types
+- Chapter 7: Union Types
