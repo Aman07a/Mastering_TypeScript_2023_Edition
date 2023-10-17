@@ -9,3 +9,4 @@ Finished Chapters:
 - Chapter 7: Union Types
 - Chapter 8: Tuples and Enums
 - Chapter 9: Interfaces
+- Chapter 10: The TypeScript Compiler
