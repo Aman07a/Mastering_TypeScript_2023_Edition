@@ -10,3 +10,4 @@ Finished Chapters:
 - Chapter 8: Tuples and Enums
 - Chapter 9: Interfaces
 - Chapter 10: The TypeScript Compiler
+- Chapter 11: Mini Project: The DOM, Type Assertions, and More!
