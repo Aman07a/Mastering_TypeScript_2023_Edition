@@ -12,10 +12,33 @@ const goodRes: HTTPResponse = [200, 'OK'];
 // goodRes.pop();
 // goodRes.pop();
 
-const responses: HTTPResponse[] = [
-  [404, 'Not Found'],
-  [200, 'OK'],
-];
+// const responses: HTTPResponse[] = [
+//   [404, 'Not Found'],
+//   [200, 'OK'],
+// ];
+
+// enum OrderStatus {
+//   PENDING,
+//   SHIPPED,
+//   DELIVERED,
+//   RETURNED,
+// }
+
+// const myStatus = OrderStatus.DELIVERED;
+
+// function isDelivered(status: OrderStatus) {
+//   return status === OrderStatus.DELIVERED;
+// }
+
+// isDelivered(OrderStatus.RETURNED);
+
+// enum ArrawoKeys {
+//   UP = 'up',
+//   DOWN = 'down',
+//   LEFT = 'left',
+//   RIGHT = 'right',
+//   ERROR = 234,
+// }
 
 enum OrderStatus {
   PENDING,
@@ -24,18 +47,12 @@ enum OrderStatus {
   RETURNED,
 }
 
-const myStatus = OrderStatus.DELIVERED;
+const order = {
+  orderNumber: 209389203,
+  status: OrderStatus,
+};
 
-function isDelivered(status: OrderStatus) {
-  return status === OrderStatus.DELIVERED;
-}
-
-isDelivered(OrderStatus.RETURNED);
-
-enum ArrawoKeys {
-  UP = 'up',
-  DOWN = 'down',
-  LEFT = 'left',
-  RIGHT = 'right',
-  ERROR = 234,
-}
+const order2 = {
+  orderNumber: 209389123203,
+  status: OrderStatus.DELIVERED,
+};
