@@ -31,3 +31,11 @@ function isDelivered(status: OrderStatus) {
 }
 
 isDelivered(OrderStatus.RETURNED);
+
+enum ArrawoKeys {
+  UP = 'up',
+  DOWN = 'down',
+  LEFT = 'left',
+  RIGHT = 'right',
+  ERROR = 234,
+}
