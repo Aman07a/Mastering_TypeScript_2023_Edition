@@ -3,16 +3,6 @@
 //   y: number;
 // };
 var pt = { x: 12, y: 1234 };
-var thomas = {
-    first: 'Thomas',
-    last: 'Hardy',
-    nickname: 'Tom',
-    id: 21837,
-    sayHi: function () {
-        return 'Hello!';
-    },
-};
-thomas.first = 'kasjdh';
 var shoes = {
     name: 'Blue Suede Shoes',
     price: 100,
@@ -39,4 +29,11 @@ var chewy = {
         return 'Bark!';
     },
     job: 'guide dog',
+};
+var pierre = {
+    name: 'Pierre',
+    id: 123897,
+    email: 'pierre@gmail.com',
+    level: 'senior',
+    languages: ['JS', 'Python'],
 };

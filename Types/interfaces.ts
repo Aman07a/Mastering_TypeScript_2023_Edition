@@ -21,17 +21,17 @@ interface Person {
   sayHi(): string;
 }
 
-const thomas: Person = {
-  first: 'Thomas',
-  last: 'Hardy',
-  nickname: 'Tom',
-  id: 21837,
-  sayHi: () => {
-    return 'Hello!';
-  },
-};
+// const thomas: Person = {
+//   first: 'Thomas',
+//   last: 'Hardy',
+//   nickname: 'Tom',
+//   id: 21837,
+//   sayHi: () => {
+//     return 'Hello!';
+//   },
+// };
 
-thomas.first = 'kasjdh';
+// thomas.first = 'kasjdh';
 // thomas.id = 238974;
 
 interface Product {
@@ -83,4 +83,26 @@ const chewy: ServiceDog = {
     return 'Bark!';
   },
   job: 'guide dog',
+};
+
+interface Human {
+  name: string;
+}
+
+interface Employee {
+  readonly id: number;
+  email: string;
+}
+
+interface Engineer extends Human, Employee {
+  level: string;
+  languages: string[];
+}
+
+const pierre: Engineer = {
+  name: 'Pierre',
+  id: 123897,
+  email: 'pierre@gmail.com',
+  level: 'senior',
+  languages: ['JS', 'Python'],
 };
