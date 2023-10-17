@@ -16,3 +16,18 @@ const responses: HTTPResponse[] = [
   [404, 'Not Found'],
   [200, 'OK'],
 ];
+
+enum OrderStatus {
+  PENDING,
+  SHIPPED,
+  DELIVERED,
+  RETURNED,
+}
+
+const myStatus = OrderStatus.DELIVERED;
+
+function isDelivered(status: OrderStatus) {
+  return status === OrderStatus.DELIVERED;
+}
+
+isDelivered(OrderStatus.RETURNED);
